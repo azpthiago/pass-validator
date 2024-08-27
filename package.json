@@ -1,0 +1,21 @@
+{
+  "name": "testador_de_senhas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "readline-sync": "^1.4.10"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
